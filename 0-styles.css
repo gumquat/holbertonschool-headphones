@@ -45,6 +45,8 @@ body {
 .nav-links1{
   position: absolute;
   right: 0;
+}.nav-links1 a:hover{
+  color: #FF6565;
 }
 .nav-links1 a {
   font-size: 12px;

@@ -1,0 +1,191 @@
+/*FONTING*/
+body {
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+
+.paragraph-white1 {
+  font-size: 16px;
+  padding: 50px 150px 150px 150px;
+  text-align: center;
+  color: white;
+}
+.paragraph-white2 {
+  font-size: 16px;
+  padding: 50px 150px 35px 150px;
+  text-align: center;
+  color: white;
+}
+
+.paragraph-black {
+  font-size: 16px;
+  padding: 50px 150px 150px 150px;
+  text-align: center;
+}
+
+/*HEADER SECTION*/
+.section1 {
+  background-image: url("images/headphones_hero_1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.navbar1 {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  color: #fff;
+  position: relative;
+}
+.navbar1 img {
+  padding-left: 100px;
+  max-width: 30vh;
+}
+.nav-links1{
+  position: absolute;
+  right: 0;
+}
+.nav-links1 a {
+  font-size: 12px;
+  font-weight: bold;
+  padding-right: 30px;
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.nav-text {
+  padding-top: 200px;
+  text-align: center;
+  color: white;
+}
+button {
+  width: 165px;
+  height: 45px;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  background-color: #FF6565;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 8px;
+  cursor: pointer;
+}
+.button {
+  padding-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*WHAT WE DO SECTION*/
+.section2 h1 {
+  padding-top: 75px;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-flow: row wrap;
+}
+.column1 {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-self: baseline;
+  flex-basis: 100%;
+  flex: 1;
+}
+.column1 img {
+  padding-top: 75px;
+  max-width: 100px;
+  align-self: center;
+  justify-content: center;
+}
+
+/*OUR RESULTS SPEAK FOR THEMSELVES SECTION*/
+.section3 {
+  background-image: url("images/headphones_hero_2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.column2 {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-self: baseline;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+  .section3 h1 {
+    color: white;
+    padding-top: 75px;
+    text-align: center;
+  }
+  .section3 img {
+    display: flex;
+    flex-flow: row wrap;
+    width: 190px;
+    height: 190px;
+    padding-top: 50px;
+  }
+
+  .image-container {
+    position: relative;
+    align-self: center;
+    color: white;
+    margin-bottom: 75px;
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  /*contact us section*/
+  .section4 h1 {
+    text-align: center;
+    padding: 125px 0px 0px 0px;
+  }
+  .section4 .form {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    padding-bottom: 25px;
+  }
+  .section4 input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .section4 button{
+    margin-bottom: 75px;
+  }
+            /*BOTTOM OF PAGE SECTION*/
+  .section5 {
+    background-color: #071629;
+    background-size: cover;
+  }
+
+  .navbar2 {
+    display: flex;
+    align-items: center;
+    padding: 100px;
+    color: #fff;
+    position: relative;
+  }
+  .navbar2 img {
+    padding-left: 25px;
+    max-width: 30vh;
+    padding-right: 30px;
+  }
+  .nav-links2{
+    position: absolute;
+    right: 0;
+  }
+
